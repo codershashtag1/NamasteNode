@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
-    "mongodb": "^6.15.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "nodemon": "^3.1.9"
   }
 }
